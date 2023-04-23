@@ -1,0 +1,47 @@
+
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+outline: 0;
+border: none;
+box-sizing:border-box;
+}
+html{
+box-sizing:border-box;
+font-size: 62.5%;
+
+}
+body{
+height: 100rem;
+font-size: 1.6rem;
+font-family: var(--main-font);
+font-style: normal;
+color: var(--color-blue);
+}
+img{
+width: 100%;
+height: 100%;
+display: block;
+
+}
+
+
+:root{
+--color-white:white;
+--color-blue:#14203E;
+--color-light-yellow: #F7F0E8;
+--color-grey-light:rgba(20, 32, 62, 0.2);;
+}
+:root{
+--main-font: 'IBM Plex Sans';
+
+}
+button{
+background-color: var(--color-blue);
+height: 4.9rem;
+border-radius: 1rem;
+font-size: 1.8rem;
+cursor: pointer;
+}
